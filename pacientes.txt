@@ -1,0 +1,12 @@
+//estrutura:
+
+ID;Nome;Idade;Sexo;CPF;Convenio
+
+101;Ana Maria Silva;45;F;123.456.789-00;Unimed
+102;Carlos Eduardo Santos;62;M;987.654.321-11;SUS
+103;Beatriz Oliveira;29;F;456.789.123-22;Bradesco Saude
+104;João Pedro Ferreira;78;M;321.654.987-33;SUS
+105;Mariana Costa;34;F;654.987.321-44;Amil
+106;Roberto Lima;51;M;789.123.456-55;Unimed
+107;Fernanda Rocha;19;F;159.753.486-66;Particular
+108;Geraldo Alves;83;M;753.159.852-77;SUS
