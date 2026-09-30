@@ -1,0 +1,11 @@
+//estrutura:
+
+Codigo;Nome;QtdEstoque;Validade;PrecoUnitario
+
+MED-001;Dipirona 500mg;150;12/2026;5.50
+MED-002;Paracetamol 750mg;45;05/2025;4.20
+MED-003;Amoxicilina 500mg;8;08/2024;22.80
+MED-004;Ibuprofeno 600mg;200;11/2027;12.00
+MED-005;Omeprazol 20mg;85;03/2026;18.50
+MED-006;Morfina 10mg/ml;12;01/2025;45.00
+MED-007;Soro Fisiologico 500ml;310;10/2028;8.90
