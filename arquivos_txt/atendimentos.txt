@@ -1,9 +1,5 @@
-//estrutura:
-
-IDAtendimento;IDPaciente;CRM;Data;Diagnostico
-
 ATD-501;101;CRM/SP-11223;12/09/2026;Entorse no tornozelo direito
-ATD-502;102;CRM/SP-12345;14/09/2026;Hipertensão arterial não controlada
-ATD-503;104;CRM/SP-44556;15/09/2026;Investigação de enxaqueca crônica
-ATD-504;105;CRM/SP-67890;18/09/2026;Consulta de rotina pediátrica
+ATD-502;102;CRM/SP-12345;14/09/2026;Hipertensao arterial nao controlada
+ATD-503;104;CRM/SP-44556;15/09/2026;Investigaçao de enxaqueca cronica
+ATD-504;105;CRM/SP-67890;18/09/2026;Consulta de rotina pediatrica
 ATD-505;108;CRM/SP-77889;20/09/2026;Quadro gripal e febre alta

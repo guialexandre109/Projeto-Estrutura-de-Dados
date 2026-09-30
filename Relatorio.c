@@ -72,7 +72,7 @@ void relatorio_pacientes()
     // o id do paciente e uma chave primaria e esta presente em atendimentos.txt
     // para cada atendimentos extraimos o id e percorremos o arquivo ate achar id do paciente 
     FILE *arquivo;
-    arquivo = fopen("pacientes.txt", "r");
+    arquivo = fopen("arquivos_txt/pacientes.txt", "r");
     if(arquivo == NULL)
     {
         printf("erro ao abrir o arquivo\n");
@@ -115,7 +115,7 @@ void relatorio_pacientes()
     }
     fclose(arquivo);
 
-    arquivo = fopen("atendimentos.txt", "r");
+    arquivo = fopen("arquivos_txt/atendimentos.txt", "r");
     if(arquivo == NULL) 
     {
         printf("erro ao abrir o arquivo\n");
