@@ -1,7 +1,3 @@
-//estrutura:
-
-NumeroQuarto;Ala;Tipo;Status;IDPaciente
-
 101;Cardiologia;Enfermaria;Ocupado;102
 101;Cardiologia;Enfermaria;Livre;0
 202;Neurologia;UTI;Ocupado;104
