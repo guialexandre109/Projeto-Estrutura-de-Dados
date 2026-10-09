@@ -46,6 +46,7 @@ void relatorio_pacientes()
     // o loop percore o arquivo e coloca as informaçoes na lista_pacientes;
     while(fgets(linha,sizeof(linha), arquivo) != NULL) //inicialmente o relatorio ira ler todo o arquivo
     {
+        //remove  a quebra  de linha 
         linha[strcspn(linha, "\r\n")] = 0;
         // strtok divide a linha em tokens pela marcaçao ";"
         char *id   = strtok(linha, ";");
@@ -61,12 +62,12 @@ void relatorio_pacientes()
             //strdup copia a string alocando dinamicamente
             // o operador ternario serve para evitar erro caso algum dos campos sejam vazios
             novo->id_paciente = strdup(id);
-            novo->nome        = strdup(nom);
-            novo->idade       = idad ? strdup(idad) : strdup("N/A");
-            novo->sexo        = sex  ? strdup(sex)  : strdup("N/A");
-            novo->cpf         = cpf  ? strdup(cpf)  : strdup("N/A");
-            novo->convenio    = conv ? strdup(conv) : strdup("N/A");
-            novo->proximo     = NULL;
+            novo->nome = strdup(nom);
+            novo->idade = idad ? strdup(idad) : strdup("N/A");
+            novo->sexo = sex  ? strdup(sex)  : strdup("N/A");
+            novo->cpf = cpf  ? strdup(cpf)  : strdup("N/A");
+            novo->convenio = conv ? strdup(conv) : strdup("N/A");
+            novo->proximo = NULL;
 
             if(inicio_pacientes == NULL) inicio_pacientes = novo;
             else ultimo_pac->proximo = novo;
