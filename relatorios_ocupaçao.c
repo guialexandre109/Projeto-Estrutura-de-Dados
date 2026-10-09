@@ -84,10 +84,3 @@ void relatorio_ocupaçao()
     atual = inicio;
     liberar(atual);
 }
-
-int main()
-{
-
-    relatorio_ocupaçao();
-    return 0;
-}

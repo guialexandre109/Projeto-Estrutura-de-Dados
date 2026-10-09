@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "relatorios_pacientes.h"
-#include "relatorio_ocupaçao.h"
+#include "relatorios_ocupaçao.h"
 typedef struct lista_atendimentos{
         char *id_atedimento;
         char *id_paciente; //chave estrangeira
@@ -40,7 +40,7 @@ int main()
         break;
     case 2:
         printf("Relatorio Escolhido: Ocupacao de Quartos/Leitos\n");
-        
+        relatorio_ocupaçao();
         break;
     default:
         break;
