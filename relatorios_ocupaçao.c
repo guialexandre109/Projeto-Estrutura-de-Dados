@@ -80,7 +80,7 @@ void relatorio_ocupaçao()
                atual->numero_quarto, atual->ala, atual->tipo, atual->status, atual->id_pacientes);
         atual = atual->proximo;
     }
-    
+    printf("\nTotal - Livres: %d | Ocupados: %d\n", livres, ocupados);
     atual = inicio;
     liberar(atual);
 }
