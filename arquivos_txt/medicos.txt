@@ -1,7 +1,3 @@
-//estrutura:
-
-CRM;Nome;Especialidade;ValorConsulta;AtendimentosMes
-
 CRM/SP-12345;Dr. Ricardo Arantes;Cardiologia;350.00;42
 CRM/SP-67890;Dra. Camila Ribeiro;Pediatria;280.00;58
 CRM/SP-11223;Dr. Fernando Souza;Ortopedia;300.00;31
