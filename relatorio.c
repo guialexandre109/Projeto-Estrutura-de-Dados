@@ -4,30 +4,10 @@
 #include <string.h>
 #include "relatorios_pacientes.h"
 #include "relatorios_ocupaçao.h"
-typedef struct lista_atendimentos{
-        char *id_atedimento;
-        char *id_paciente; //chave estrangeira
-        char *CRM;
-        char *data;
-        char *diagnostico;
-        struct lista_atendimentos *proximo;
-    } lista_atendimentos;
+#include "relatorios_medicos.h"
 
-typedef struct lista_pacientes {
-    char *id_paciente;    // chave primaria
-    char *nome;
-    char *idade;
-    char *sexo;
-    char *cpf;
-    char *convenio;
-    struct lista_pacientes *proximo;
-} lista_pacientes;
-
-void liberar_lista_pacientes(lista_pacientes *inicio);
-lista_pacientes* buscar_paciente_por_id(lista_pacientes *inicio, const char *id_procurado);
 int escolha();
-void abrir_arquivo(const char *arquivo);
-void relatorio_pacientes();
+
 
 int main()
 {
@@ -42,6 +22,9 @@ int main()
         printf("Relatorio Escolhido: Ocupacao de Quartos/Leitos\n");
         relatorio_ocupaçao();
         break;
+    case 3:
+        printf("Relatorio Escolhido: Faturamento Medicos\n");
+        gerar();
     default:
         break;
     }
