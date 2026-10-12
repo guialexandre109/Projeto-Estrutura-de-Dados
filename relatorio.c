@@ -2,9 +2,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
 #include "relatorios_pacientes.h"
 #include "relatorios_ocupaçao.h"
 #include "relatorios_medicos.h"
+#include "relatorios_remedios.h"
 
 int escolha();
 
@@ -25,6 +27,10 @@ int main()
     case 3:
         printf("Relatorio Escolhido: Faturamento Medicos\n");
         gerar();
+        break;
+    case 4:
+        printf("Relatorio Escolhido: Medicamentos/Validade\n");
+        gerar_medicamentos();
     default:
         break;
     }
